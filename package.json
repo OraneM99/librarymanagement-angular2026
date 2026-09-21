@@ -12,25 +12,25 @@
   },
   "private": true,
   "engines": {
-    "node": "^22.22.3 || ^24.15.0 || >=26.0.0"
+    "node": "^20.19.0 || ^22.12.0 || ^24.0.0"
   },
   "dependencies": {
-    "@angular/common": "^22.1.7",
-    "@angular/compiler": "^22.1.7",
-    "@angular/core": "^22.1.7",
-    "@angular/forms": "^22.1.7",
-    "@angular/platform-browser": "^22.1.7",
-    "@angular/router": "^22.1.7",
+    "@angular/common": "~20.3.31",
+    "@angular/compiler": "~20.3.31",
+    "@angular/core": "~20.3.31",
+    "@angular/forms": "~20.3.31",
+    "@angular/platform-browser": "~20.3.31",
+    "@angular/router": "~20.3.31",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular/build": "^22.1.8",
-    "@angular/cli": "^22.1.8",
-    "@angular/compiler-cli": "^22.1.7",
-    "jsdom": "^28.0.0",
-    "typescript": "~6.0.2",
-    "vitest": "^4.0.8",
+    "@angular/build": "~20.3.37",
+    "@angular/cli": "~20.3.37",
+    "@angular/compiler-cli": "~20.3.31",
+    "jsdom": "^27.1.0",
+    "typescript": "~5.9.3",
+    "vitest": "~3.2.7",
     "prettier": "^3.8.1"
   },
   "prettier": {
@@ -45,10 +45,5 @@
       }
     ]
   },
-  "allowScripts": {
-    "esbuild@0.28.2": true,
-    "@parcel/watcher@2.6.0": true,
-    "lmdb@3.5.6": true,
-    "msgpackr-extract@3.0.4": true
-  }
+  "packageManager": "npm@10.8.2"
 }

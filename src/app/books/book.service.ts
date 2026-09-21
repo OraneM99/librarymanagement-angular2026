@@ -1,7 +1,7 @@
-import { Service } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { Book } from './book';
 
-@Service()
+@Injectable({ providedIn: 'root' })
 export class BookService {
   private books: Book[] = [
     {
